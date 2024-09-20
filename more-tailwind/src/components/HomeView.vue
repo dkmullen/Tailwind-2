@@ -4,6 +4,7 @@ import HeroSection from './sections/HeroSection.vue'
 import RocketSection from './sections/RocketSection.vue'
 import TestimonialsSection from './sections/TestimonialsSection.vue'
 import ContactSection from './sections/ContactSection.vue'
+import FooterSection from './sections/FooterSection.vue'
 </script>
 
 <template>
@@ -21,5 +22,6 @@ import ContactSection from './sections/ContactSection.vue'
       <hr class="mx-auto bg-black dark dark:bg-white w-1/2" />
       <ContactSection />
     </main>
+    <FooterSection />
   </body>
 </template>
